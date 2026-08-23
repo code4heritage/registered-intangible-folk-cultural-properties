@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo": "registered-intangible-folk-cultural-properties",
+    "name": "登録無形民俗文化財",
+    "category": {
+      "code": "322",
+      "name": "登録無形民俗文化財"
+    },
+    "kinds": []
+  },
+  "source": {
+    "name": "国指定文化財等データベース",
+    "publisher": "文化庁",
+    "url": "https://kunishitei.bunka.go.jp/",
+    "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
+    "accessed_date": "2026-08-23",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+  },
+  "generator": {
+    "name": "heritage-crawler",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "records": 9,
+    "files": 9,
+    "with_coordinates": 9
+  },
+  "labels": {
+    "ledger_id": "台帳ID",
+    "managed_id": "管理対象ID",
+    "category_code": "分類コード",
+    "category_name": "分類",
+    "url": "詳細ページ",
+    "name": "名称",
+    "name_kana": "ふりがな",
+    "types": "種別",
+    "notes": "その他参考となるべき事項",
+    "designation_kind": "指定・登録・選定の別",
+    "designation_number": "登録番号",
+    "designated_date": "登録年月日",
+    "criteria": "登録基準",
+    "prefecture": "所在都道府県、地域",
+    "address": "所在地",
+    "latitude": "緯度",
+    "longitude": "経度",
+    "protection_organization": "保護団体名",
+    "description": "解説文",
+    "detailed_description": "詳細解説",
+    "has_attachment": "添付ファイルの有無",
+    "has_photo": "写真の有無"
+  },
+  "fields": {
+    "ledger_id": 9,
+    "managed_id": 9,
+    "category_code": 9,
+    "category_name": 9,
+    "url": 9,
+    "name": 9,
+    "name_kana": 9,
+    "types": 9,
+    "notes": 2,
+    "designation_kind": 9,
+    "designation_number": 9,
+    "designated_date": 9,
+    "criteria": 9,
+    "prefecture": 9,
+    "address": 9,
+    "latitude": 9,
+    "longitude": 9,
+    "protection_organization": 9,
+    "description": 9,
+    "detailed_description": 9,
+    "has_attachment": 9,
+    "has_photo": 9
+  },
+  "facets": {
+    "types": {
+      "民俗技術": 9,
+      "生産・生業": 9
+    },
+    "prefecture": {
+      "奈良県": 1,
+      "山形県": 1,
+      "滋賀県": 1,
+      "石川県": 1,
+      "福井県": 1,
+      "秋田県": 1,
+      "香川県": 1,
+      "高知県": 1,
+      "鹿児島県": 1
+    },
+    "criteria": {
+      "（三）地域的特色を示すもの": 8,
+      "（二）発生若しくは成立又は変遷の過程を示すもの": 1
+    },
+    "designation_kind": {
+      "登録": 9
+    }
+  },
+  "files": [
+    {
+      "path": "data/05_akita.jsonl",
+      "area_code": "05",
+      "area_name": "秋田県",
+      "records": 1
+    },
+    {
+      "path": "data/06_yamagata.jsonl",
+      "area_code": "06",
+      "area_name": "山形県",
+      "records": 1
+    },
+    {
+      "path": "data/17_ishikawa.jsonl",
+      "area_code": "17",
+      "area_name": "石川県",
+      "records": 1
+    },
+    {
+      "path": "data/18_fukui.jsonl",
+      "area_code": "18",
+      "area_name": "福井県",
+      "records": 1
+    },
+    {
+      "path": "data/25_shiga.jsonl",
+      "area_code": "25",
+      "area_name": "滋賀県",
+      "records": 1
+    },
+    {
+      "path": "data/29_nara.jsonl",
+      "area_code": "29",
+      "area_name": "奈良県",
+      "records": 1
+    },
+    {
+      "path": "data/37_kagawa.jsonl",
+      "area_code": "37",
+      "area_name": "香川県",
+      "records": 1
+    },
+    {
+      "path": "data/39_kochi.jsonl",
+      "area_code": "39",
+      "area_name": "高知県",
+      "records": 1
+    },
+    {
+      "path": "data/46_kagoshima.jsonl",
+      "area_code": "46",
+      "area_name": "鹿児島県",
+      "records": 1
+    }
+  ]
+}
